@@ -76,9 +76,9 @@ A production-ready Python development environment template using modern tools: *
 
 2. **Open in container**:
    ```bash
-   git clone https://github.com/a5chin/python-uv.git
+   git clone https://github.com/mosgaragedev/python-uv.git
    cd python-uv
-   code .
+   code . or code-insiders .
    ```
    When prompted, click "Reopen in Container"
 
