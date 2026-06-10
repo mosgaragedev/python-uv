@@ -13,9 +13,9 @@ license = { file = "LICENSE" }
 dependencies = [
     "beartype>=0.22.9",
     "google-cloud-logging>=3.15.0",
-    "jaxtyping>=0.3.9",
-    "pydantic>=2.13.3",
-    "pydantic-settings>=2.14.0",
+    "jaxtyping>=0.3.10",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.1",
 ]
 
 [dependency-groups]
@@ -26,12 +26,12 @@ dev = [
     "jupyter>=1.1.1",
     "mkdocs-material>=9.7.6",
     "nox>=2026.4.10",
-    "pre-commit>=4.5.1",
+    "pre-commit>=4.6.0",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
-    "ruff>=0.15.12",
-    "sqlfluff>=4.1.0",
-    "ty>=0.0.32",
+    "ruff>=0.15.15",
+    "sqlfluff>=4.2.1",
+    "ty>=0.0.40",
 ]
 
 [tool.hatch.build.targets.wheel]
